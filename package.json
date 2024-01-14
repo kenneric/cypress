@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "cypress:example": "cypress run --spec \"cypress/e2e/_examples/spec.cy.js\""
+    "open": "cypress open",
+    "run": "cypress run",
+    "example": "cypress run --spec \"cypress/e2e/_examples/spec.cy.js\"",
+    "search": "cypress run --spec \"cypress/e2e/_examples/search.cy.js\""
   },
   "dependencies": {},
   "devDependencies": {
