@@ -14,4 +14,5 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           build:  yarn install
-          start: CYPRESS_SEARCH=${{ secrets.GOOGLE_SEARCH }} yarn search
+          env: CYPRESS_SEARCH=${{ secrets.GOOGLE_SEARCH }} 
+          start: yarn search
