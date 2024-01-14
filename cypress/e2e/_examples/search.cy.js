@@ -1,6 +1,6 @@
 describe('template spec', () => {
-		it('passes', () => {
-			cy.visit('https://google.com')
-			cy.get('textarea[title="Search"]').type(Cypress.env('SEARCH'));
-		})
+	it('passes', () => {
+		cy.visit('https://google.com')
+		cy.get('textarea[title="Search"]').type(Cypress.env('SEARCH'));
 	})
+})
