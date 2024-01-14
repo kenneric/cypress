@@ -1,13 +1,13 @@
 {
   "scripts": {
-    "open": "cypress open",
-    "run": "cypress run",
-    "example": "cypress run --spec \"cypress/e2e/_examples/spec.cy.js\"",
-    "search": "cypress run --spec \"cypress/e2e/_examples/search.cy.js\""
+	"open": "cypress open",
+	"run": "cypress run",
+	"example": "cypress run --spec \"cypress/e2e/_examples/spec.cy.js\"",
+	"search": "CYPRESS_search=$npm_config_search cypress run --spec \"cypress/e2e/_examples/search.cy.js\""
   },
   "dependencies": {},
   "devDependencies": {
-    "cypress": "^13.6.2",
-    "yarn": "^1.22.21"
+	"cypress": "^13.6.2",
+	"yarn": "^1.22.21"
   }
 }
